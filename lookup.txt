@@ -1,0 +1,12 @@
+dict = {'predict': 0,
+#  'recommend': 1,
+#  'goodbye': 2,
+#  'name': 3,
+#  'greeting': 4,
+#  'weather': 5,
+#  'stores': 6,
+#  'crops': 7,
+#  'friends': 8,
+#  'delete': 9,
+#  'notfound': 10,
+#  'communication': 11}

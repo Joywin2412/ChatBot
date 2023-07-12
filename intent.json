@@ -1,0 +1,53 @@
+{"ourIntents": [
+
+    {"tag": "predict",
+     "patterns": ["How can I know my yield?","Can you predict my yield","I want to know my production of crops", "What is the amount of crops will I get?", "I want to know production", "What is production going to be?"],
+     "responses": ["You can go to our homepage and click on get started 🤝"]
+    },
+     {"tag": "recommend",
+     "patterns": [ "Recommend crops for me", "Which crop should I grow?", "Any idea on which crop is best"],
+     "responses": ["Congrats! You accessed one of to-be-developed features. I am sincerely sorry to tell that the feature is not yet available","Features is in development stage. Inconvience regretted"]
+    },
+     {"tag": "goodbye",
+     "patterns": [ "bye", "later","see you"],
+     "responses": ["Bye", "take care"]
+    },
+    {"tag": "name",
+     "patterns": ["what's your name?", "who are you?"],
+     "responses": ["My name is farm sensei. Developers named me that", "I am farm sensei. Ready to be at your service"]
+    },
+    {"tag": "greeting",
+    "patterns": [ "Hi", "Hello", "Hey"],
+    "responses": ["Hi there. I am Farm Sensei!. Ready to help", "Hello", "Hi :)"]
+    },
+    {"tag": "weather",
+    "patterns": [ "What's the weather like?", "Is it rainy?", "How should I know my weather?"],
+    "responses": ["Go to homepage and access weather forecast for our amazing features."]
+    },
+    {"tag": "stores",
+    "patterns": [ "Where are the nearby stores?", "Stores near me", "Where should I sell my crops"],
+    "responses": ["Farm sensei to the rescue! You can access stores from the homepage!", "To know the stores near you can use our stores feature in the homepage"]
+    },
+    {"tag": "crops",
+    "patterns": [ "Where are the farmers near me growing?", "What are the crops grown near me?", "Crops near me!"],
+    "responses": ["Farm sensei to the rescue! You can access crops from the homepage!", "To know the crops grown near you can use our major crops feature in the homepage 🚀"]
+    },
+    {"tag": "friends",
+    "patterns": [ "I want to make new friends", "I want to talk to my friends", "Where are my friends?"],
+    "responses": ["Farm sensei to the rescue! Click on your profile on the toppage! There you go you should see a friends bar on the right!!"]
+    },
+    {"tag": "delete",
+    "patterns": [ "I want to delete my account", "I dislike you"],
+    "responses": ["Extremely sorry to hear that! We will improve in the future. If you are unhappy with our service delete the account is present in the profile accessed by clicking on the top of your page"]
+    },
+    {
+        "tag": "notfound",
+        "patterns": [ "I fail to find crops near me when accessing the major crops", "I fail to find users near me at major crops feature", "I can't see users in the major crops","No user is visible in the map"],
+        "responses": ["Farm Sensei encourage to fill the form in the profile page. Profile is accessed by clicking on the top of the page. Then you must be able to see the farmers near you!!"]
+    },
+    {
+        "tag": "communication",
+        "patterns": [ "I want to communicate with a farmer", "I want to find fertilizers!!"],
+        "responses": ["Farm Sensei encourage to go to profile page. Then you must be able to see the farmers near your area. Send them a friend request. And after accepting you will be able to see their phone number"]
+    }
+]}
